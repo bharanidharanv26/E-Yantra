@@ -1,0 +1,30 @@
+[0.057s] Invoking command in '/home/bhadha/pico_ws/build/rotors_swift_gazebo': AMENT_PREFIX_PATH=/home/bhadha/pico_ws/install/rotors_swift_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bhadha/pico_ws/install/rotors_swift_description:/opt/ros/humble /usr/bin/cmake --build /home/bhadha/pico_ws/build/rotors_swift_gazebo -- -j12 -l12
+[0.256s] Invoked command in '/home/bhadha/pico_ws/build/rotors_swift_gazebo' returned '0': AMENT_PREFIX_PATH=/home/bhadha/pico_ws/install/rotors_swift_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bhadha/pico_ws/install/rotors_swift_description:/opt/ros/humble /usr/bin/cmake --build /home/bhadha/pico_ws/build/rotors_swift_gazebo -- -j12 -l12
+[0.260s] Invoking command in '/home/bhadha/pico_ws/build/rotors_swift_gazebo': AMENT_PREFIX_PATH=/home/bhadha/pico_ws/install/rotors_swift_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bhadha/pico_ws/install/rotors_swift_description:/opt/ros/humble /usr/bin/cmake --install /home/bhadha/pico_ws/build/rotors_swift_gazebo
+[0.275s] -- Install configuration: ""
+[0.275s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/launch
+[0.275s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/launch/swift_pico_simulation.launch.py
+[0.275s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/config
+[0.276s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/config/swift_pico_bridge.yaml
+[0.276s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/resource
+[0.276s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/resource/swift.yaml
+[0.276s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/resource/roll_pitch_yawrate_thrust_controller_swift.yaml
+[0.276s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/resource/roll_pitch_yawrate_thrust_controller_swift_big.yaml
+[0.276s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/worlds
+[0.276s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/worlds/swift_pico_world.sdf
+[0.277s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/ament_index/resource_index/package_run_dependencies/rotors_swift_gazebo
+[0.277s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/ament_index/resource_index/parent_prefix_path/rotors_swift_gazebo
+[0.277s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/environment/ament_prefix_path.sh
+[0.277s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/environment/ament_prefix_path.dsv
+[0.277s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/environment/path.sh
+[0.277s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/environment/path.dsv
+[0.277s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/local_setup.bash
+[0.277s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/local_setup.sh
+[0.278s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/local_setup.zsh
+[0.278s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/local_setup.dsv
+[0.278s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/package.dsv
+[0.278s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/ament_index/resource_index/packages/rotors_swift_gazebo
+[0.278s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/cmake/rotors_swift_gazeboConfig.cmake
+[0.279s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/cmake/rotors_swift_gazeboConfig-version.cmake
+[0.279s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_gazebo/share/rotors_swift_gazebo/package.xml
+[0.282s] Invoked command in '/home/bhadha/pico_ws/build/rotors_swift_gazebo' returned '0': AMENT_PREFIX_PATH=/home/bhadha/pico_ws/install/rotors_swift_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bhadha/pico_ws/install/rotors_swift_description:/opt/ros/humble /usr/bin/cmake --install /home/bhadha/pico_ws/build/rotors_swift_gazebo

@@ -1,0 +1,201 @@
+[0.026s] Invoking command in '/home/bhadha/pico_ws/build/mav_state_machine_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhadha/pico_ws/src/mav_comm/mav_state_machine_msgs -DCMAKE_INSTALL_PREFIX=/home/bhadha/pico_ws/install/mav_state_machine_msgs
+[0.146s] -- The C compiler identification is GNU 11.4.0
+[0.280s] -- The CXX compiler identification is GNU 11.4.0
+[0.295s] -- Detecting C compiler ABI info
+[0.422s] -- Detecting C compiler ABI info - done
+[0.450s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.451s] -- Detecting C compile features
+[0.451s] -- Detecting C compile features - done
+[0.456s] -- Detecting CXX compiler ABI info
+[0.605s] -- Detecting CXX compiler ABI info - done
+[0.626s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.627s] -- Detecting CXX compile features
+[0.628s] -- Detecting CXX compile features - done
+[0.632s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.991s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.167s] -- Found std_msgs: 4.9.2 (/opt/ros/humble/share/std_msgs/cmake)
+[1.223s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.233s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.254s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.285s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.327s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.089s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.935s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.254s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.275s] -- Configuring done
+[3.318s] -- Generating done
+[3.333s] -- Build files have been written to: /home/bhadha/pico_ws/build/mav_state_machine_msgs
+[3.344s] Invoked command in '/home/bhadha/pico_ws/build/mav_state_machine_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhadha/pico_ws/src/mav_comm/mav_state_machine_msgs -DCMAKE_INSTALL_PREFIX=/home/bhadha/pico_ws/install/mav_state_machine_msgs
+[3.348s] Invoking command in '/home/bhadha/pico_ws/build/mav_state_machine_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhadha/pico_ws/build/mav_state_machine_msgs -- -j12 -l12
+[3.430s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.458s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.261s] [  6%] Built target mav_state_machine_msgs__cpp
+[5.330s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.334s] [ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.353s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.676s] [ 20%] [32mBuilding C object CMakeFiles/mav_state_machine_msgs__rosidl_generator_c.dir/rosidl_generator_c/mav_state_machine_msgs/msg/detail/start_stop_task__functions.c.o[0m
+[5.679s] [ 24%] [32mBuilding C object CMakeFiles/mav_state_machine_msgs__rosidl_generator_c.dir/rosidl_generator_c/mav_state_machine_msgs/srv/detail/run_task_service__functions.c.o[0m
+[6.200s] [ 27%] [32m[1mLinking C shared library libmav_state_machine_msgs__rosidl_generator_c.so[0m
+[6.529s] [ 27%] Built target mav_state_machine_msgs__rosidl_generator_c
+[6.621s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.625s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.659s] [ 37%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.822s] [ 41%] [32mBuilding CXX object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mav_state_machine_msgs/msg/start_stop_task__type_support.cpp.o[0m
+[6.830s] [ 44%] [32mBuilding CXX object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mav_state_machine_msgs/srv/run_task_service__type_support.cpp.o[0m
+[7.971s] [ 48%] [32mBuilding CXX object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mav_state_machine_msgs/msg/detail/start_stop_task__type_support.cpp.o[0m
+[8.006s] [ 51%] [32mBuilding CXX object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mav_state_machine_msgs/srv/detail/run_task_service__type_support.cpp.o[0m
+[8.771s] [ 55%] [32mBuilding CXX object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mav_state_machine_msgs/srv/detail/dds_fastrtps/run_task_service__type_support.cpp.o[0m
+[8.816s] [ 58%] [32mBuilding CXX object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mav_state_machine_msgs/msg/detail/dds_fastrtps/start_stop_task__type_support.cpp.o[0m
+[10.207s] [ 62%] [32mBuilding CXX object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mav_state_machine_msgs/msg/start_stop_task__type_support.cpp.o[0m
+[10.210s] [ 65%] [32mBuilding CXX object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mav_state_machine_msgs/srv/run_task_service__type_support.cpp.o[0m
+[10.466s] [ 68%] [32m[1mLinking CXX shared library libmav_state_machine_msgs__rosidl_typesupport_c.so[0m
+[10.687s] [ 68%] Built target mav_state_machine_msgs__rosidl_typesupport_c
+[10.946s] [ 72%] [32m[1mLinking CXX shared library libmav_state_machine_msgs__rosidl_typesupport_cpp.so[0m
+[11.088s] [ 75%] [32mBuilding CXX object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mav_state_machine_msgs/msg/detail/start_stop_task__type_support_c.cpp.o[0m
+[11.097s] [ 79%] [32mBuilding CXX object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mav_state_machine_msgs/srv/detail/run_task_service__type_support_c.cpp.o[0m
+[11.151s] [ 82%] [32mBuilding C object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mav_state_machine_msgs/srv/detail/run_task_service__type_support.c.o[0m
+[11.180s] [ 86%] [32mBuilding C object CMakeFiles/mav_state_machine_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mav_state_machine_msgs/msg/detail/start_stop_task__type_support.c.o[0m
+[11.197s] [ 86%] Built target mav_state_machine_msgs__rosidl_typesupport_cpp
+[11.490s] [ 89%] [32m[1mLinking C shared library libmav_state_machine_msgs__rosidl_typesupport_introspection_c.so[0m
+[11.697s] [ 89%] Built target mav_state_machine_msgs__rosidl_typesupport_introspection_c
+[13.087s] [ 93%] [32m[1mLinking CXX shared library libmav_state_machine_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[13.180s] [ 96%] [32m[1mLinking CXX shared library libmav_state_machine_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.351s] [ 96%] Built target mav_state_machine_msgs__rosidl_typesupport_introspection_cpp
+[13.509s] [100%] [32m[1mLinking CXX shared library libmav_state_machine_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[13.660s] [100%] Built target mav_state_machine_msgs__rosidl_typesupport_fastrtps_cpp
+[13.780s] [100%] Built target mav_state_machine_msgs__rosidl_typesupport_fastrtps_c
+[13.839s] [100%] Built target mav_state_machine_msgs
+[13.883s] Invoked command in '/home/bhadha/pico_ws/build/mav_state_machine_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhadha/pico_ws/build/mav_state_machine_msgs -- -j12 -l12
+[13.895s] Invoking command in '/home/bhadha/pico_ws/build/mav_state_machine_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhadha/pico_ws/build/mav_state_machine_msgs
+[13.934s] -- Install configuration: ""
+[13.938s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/ament_index/resource_index/rosidl_interfaces/mav_state_machine_msgs
+[13.940s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs
+[13.941s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg
+[13.942s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail
+[13.942s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__struct.h
+[13.942s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__type_support.h
+[13.942s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__functions.c
+[13.942s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__functions.h
+[13.945s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/start_stop_task.h
+[13.946s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/rosidl_generator_c__visibility_control.h
+[13.946s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv
+[13.947s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail
+[13.947s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__struct.h
+[13.947s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__functions.c
+[13.947s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__functions.h
+[13.947s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__type_support.h
+[13.948s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/run_task_service.h
+[13.953s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/environment/library_path.sh
+[13.953s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/environment/library_path.dsv
+[13.954s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_generator_c.so
+[13.954s] -- Set runtime path of "/home/bhadha/pico_ws/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_generator_c.so" to ""
+[13.954s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs
+[13.954s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg
+[13.954s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail
+[13.954s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__rosidl_typesupport_fastrtps_c.h
+[13.959s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.959s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv
+[13.959s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail
+[13.959s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__rosidl_typesupport_fastrtps_c.h
+[13.960s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_fastrtps_c.so
+[13.960s] -- Set runtime path of "/home/bhadha/pico_ws/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[13.960s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs
+[13.960s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg
+[13.960s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail
+[13.961s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__traits.hpp
+[13.964s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__builder.hpp
+[13.964s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__type_support.hpp
+[13.965s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__struct.hpp
+[13.965s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[13.965s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/start_stop_task.hpp
+[13.966s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv
+[13.966s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail
+[13.966s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__type_support.hpp
+[13.969s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__traits.hpp
+[13.970s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__struct.hpp
+[13.970s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__builder.hpp
+[13.970s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/run_task_service.hpp
+[13.970s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs
+[13.971s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg
+[13.971s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.971s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail
+[13.971s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/dds_fastrtps
+[13.972s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__rosidl_typesupport_fastrtps_cpp.hpp
+[13.972s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv
+[13.972s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail
+[13.972s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/dds_fastrtps
+[13.973s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__rosidl_typesupport_fastrtps_cpp.hpp
+[13.973s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_fastrtps_cpp.so
+[13.975s] -- Set runtime path of "/home/bhadha/pico_ws/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.975s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs
+[13.975s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg
+[13.976s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail
+[13.976s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__rosidl_typesupport_introspection_c.h
+[13.977s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__type_support.c
+[13.977s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.977s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv
+[13.977s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail
+[13.980s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__type_support.c
+[13.981s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__rosidl_typesupport_introspection_c.h
+[13.981s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_introspection_c.so
+[13.981s] -- Set runtime path of "/home/bhadha/pico_ws/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_introspection_c.so" to ""
+[13.986s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_c.so
+[13.986s] -- Set runtime path of "/home/bhadha/pico_ws/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_c.so" to ""
+[13.986s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs
+[13.987s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg
+[13.987s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail
+[13.987s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__rosidl_typesupport_introspection_cpp.hpp
+[13.988s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/msg/detail/start_stop_task__type_support.cpp
+[13.988s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv
+[13.988s] -- Up-to-date: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail
+[13.989s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__rosidl_typesupport_introspection_cpp.hpp
+[13.989s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/include/mav_state_machine_msgs/mav_state_machine_msgs/srv/detail/run_task_service__type_support.cpp
+[13.989s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_introspection_cpp.so
+[13.996s] -- Set runtime path of "/home/bhadha/pico_ws/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[13.997s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_cpp.so
+[13.997s] -- Set runtime path of "/home/bhadha/pico_ws/install/mav_state_machine_msgs/lib/libmav_state_machine_msgs__rosidl_typesupport_cpp.so" to ""
+[13.997s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/msg/StartStopTask.idl
+[13.997s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/srv/RunTaskService.idl
+[13.997s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/msg/StartStopTask.msg
+[13.998s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/srv/RunTaskService.srv
+[13.999s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/srv/RunTaskService_Request.msg
+[13.999s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/srv/RunTaskService_Response.msg
+[14.000s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/ament_index/resource_index/package_run_dependencies/mav_state_machine_msgs
+[14.000s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/ament_index/resource_index/parent_prefix_path/mav_state_machine_msgs
+[14.001s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/environment/ament_prefix_path.sh
+[14.003s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/environment/ament_prefix_path.dsv
+[14.004s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/environment/path.sh
+[14.005s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/environment/path.dsv
+[14.006s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/local_setup.bash
+[14.006s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/local_setup.sh
+[14.007s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/local_setup.zsh
+[14.007s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/local_setup.dsv
+[14.009s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/package.dsv
+[14.010s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/ament_index/resource_index/packages/mav_state_machine_msgs
+[14.010s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/export_mav_state_machine_msgs__rosidl_generator_cExport.cmake
+[14.010s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/export_mav_state_machine_msgs__rosidl_generator_cExport-noconfig.cmake
+[14.014s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/export_mav_state_machine_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[14.015s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/export_mav_state_machine_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.016s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/export_mav_state_machine_msgs__rosidl_generator_cppExport.cmake
+[14.016s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/export_mav_state_machine_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.016s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/export_mav_state_machine_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.017s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/mav_state_machine_msgs__rosidl_typesupport_introspection_cExport.cmake
+[14.017s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/mav_state_machine_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.017s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/mav_state_machine_msgs__rosidl_typesupport_cExport.cmake
+[14.017s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/mav_state_machine_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[14.018s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/mav_state_machine_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[14.019s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/mav_state_machine_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.020s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/mav_state_machine_msgs__rosidl_typesupport_cppExport.cmake
+[14.020s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/mav_state_machine_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[14.021s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/rosidl_cmake-extras.cmake
+[14.021s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.023s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.023s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[14.024s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[14.024s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.024s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.031s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[14.032s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/mav_state_machine_msgsConfig.cmake
+[14.032s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/cmake/mav_state_machine_msgsConfig-version.cmake
+[14.033s] -- Installing: /home/bhadha/pico_ws/install/mav_state_machine_msgs/share/mav_state_machine_msgs/package.xml
+[14.035s] Invoked command in '/home/bhadha/pico_ws/build/mav_state_machine_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhadha/pico_ws/build/mav_state_machine_msgs

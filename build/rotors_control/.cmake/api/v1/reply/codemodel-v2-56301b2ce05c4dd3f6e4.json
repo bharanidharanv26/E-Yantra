@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c883641b0023c8f5030c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rotors_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "roll_pitch_yawrate_thrust_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roll_pitch_yawrate_thrust_controller-a6043ae0493d8edfdab2.json",
+					"name" : "roll_pitch_yawrate_thrust_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roll_pitch_yawrate_thrust_controller_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roll_pitch_yawrate_thrust_controller_node-42bde826551f6c6e8b17.json",
+					"name" : "roll_pitch_yawrate_thrust_controller_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotors_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotors_control_uninstall-44d1ad9d107901b60e97.json",
+					"name" : "rotors_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b2bbb5e261b78252560f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bhadha/pico_ws/build/rotors_control",
+		"source" : "/home/bhadha/pico_ws/src/rotors_simulator/rotors_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

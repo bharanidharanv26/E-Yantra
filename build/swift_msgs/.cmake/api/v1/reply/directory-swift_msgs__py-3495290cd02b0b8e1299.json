@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "swift_msgs__py",
+		"source" : "/home/bhadha/pico_ws/build/swift_msgs/swift_msgs__py"
+	}
+}

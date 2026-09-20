@@ -1,0 +1,28 @@
+[0.017s] Invoking command in '/home/bhadha/pico_ws/build/whycode': AMENT_PREFIX_PATH=/home/bhadha/pico_ws/install/whycode_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bhadha/pico_ws/install/whycode_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/bhadha/pico_ws/install/whycode_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bhadha/pico_ws/build/whycode -- -j12 -l12
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target whycode_node[0m
+[0.111s] [100%] Built target whycode_node
+[0.145s] Invoked command in '/home/bhadha/pico_ws/build/whycode' returned '0': AMENT_PREFIX_PATH=/home/bhadha/pico_ws/install/whycode_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bhadha/pico_ws/install/whycode_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/bhadha/pico_ws/install/whycode_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bhadha/pico_ws/build/whycode -- -j12 -l12
+[0.148s] Invoking command in '/home/bhadha/pico_ws/build/whycode': AMENT_PREFIX_PATH=/home/bhadha/pico_ws/install/whycode_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bhadha/pico_ws/install/whycode_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/bhadha/pico_ws/install/whycode_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bhadha/pico_ws/build/whycode
+[0.157s] -- Install configuration: ""
+[0.158s] -- Installing: /home/bhadha/pico_ws/install/whycode/share/whycode/launch
+[0.158s] -- Installing: /home/bhadha/pico_ws/install/whycode/share/whycode/launch/whycode.launch
+[0.158s] -- Installing: /home/bhadha/pico_ws/install/whycode/share/whycode/launch/camera.launch.py
+[0.158s] -- Installing: /home/bhadha/pico_ws/install/whycode/share/whycode/launch/whycode_bringup.launch.py
+[0.158s] -- Installing: /home/bhadha/pico_ws/install/whycode/lib/whycode/whycode_node
+[0.160s] -- Set runtime path of "/home/bhadha/pico_ws/install/whycode/lib/whycode/whycode_node" to ""
+[0.161s] -- Installing: /home/bhadha/pico_ws/install/whycode/share/ament_index/resource_index/package_run_dependencies/whycode
+[0.161s] -- Installing: /home/bhadha/pico_ws/install/whycode/share/ament_index/resource_index/parent_prefix_path/whycode
+[0.161s] -- Installing: /home/bhadha/pico_ws/install/whycode/share/whycode/environment/ament_prefix_path.sh
+[0.161s] -- Installing: /home/bhadha/pico_ws/install/whycode/share/whycode/environment/ament_prefix_path.dsv
+[0.161s] -- Installing: /home/bhadha/pico_ws/install/whycode/share/whycode/environment/path.sh
+[0.161s] -- Installing: /home/bhadha/pico_ws/install/whycode/share/whycode/environment/path.dsv
+[0.162s] -- Installing: /home/bhadha/pico_ws/install/whycode/share/whycode/local_setup.bash
+[0.162s] -- Installing: /home/bhadha/pico_ws/install/whycode/share/whycode/local_setup.sh
+[0.162s] -- Installing: /home/bhadha/pico_ws/install/whycode/share/whycode/local_setup.zsh
+[0.162s] -- Installing: /home/bhadha/pico_ws/install/whycode/share/whycode/local_setup.dsv
+[0.162s] -- Installing: /home/bhadha/pico_ws/install/whycode/share/whycode/package.dsv
+[0.162s] -- Installing: /home/bhadha/pico_ws/install/whycode/share/ament_index/resource_index/packages/whycode
+[0.163s] -- Installing: /home/bhadha/pico_ws/install/whycode/share/whycode/cmake/whycodeConfig.cmake
+[0.163s] -- Installing: /home/bhadha/pico_ws/install/whycode/share/whycode/cmake/whycodeConfig-version.cmake
+[0.163s] -- Installing: /home/bhadha/pico_ws/install/whycode/share/whycode/package.xml
+[0.166s] Invoked command in '/home/bhadha/pico_ws/build/whycode' returned '0': AMENT_PREFIX_PATH=/home/bhadha/pico_ws/install/whycode_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bhadha/pico_ws/install/whycode_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/bhadha/pico_ws/install/whycode_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bhadha/pico_ws/build/whycode

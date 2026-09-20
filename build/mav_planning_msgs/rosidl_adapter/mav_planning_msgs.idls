@@ -1,0 +1,12 @@
+/home/bhadha/pico_ws/build/mav_planning_msgs/rosidl_adapter/mav_planning_msgs:msg/Point2D.idl
+/home/bhadha/pico_ws/build/mav_planning_msgs/rosidl_adapter/mav_planning_msgs:msg/PointCloudWithPose.idl
+/home/bhadha/pico_ws/build/mav_planning_msgs/rosidl_adapter/mav_planning_msgs:msg/Polygon2D.idl
+/home/bhadha/pico_ws/build/mav_planning_msgs/rosidl_adapter/mav_planning_msgs:msg/PolygonWithHoles.idl
+/home/bhadha/pico_ws/build/mav_planning_msgs/rosidl_adapter/mav_planning_msgs:msg/PolygonWithHolesStamped.idl
+/home/bhadha/pico_ws/build/mav_planning_msgs/rosidl_adapter/mav_planning_msgs:msg/PolynomialSegment.idl
+/home/bhadha/pico_ws/build/mav_planning_msgs/rosidl_adapter/mav_planning_msgs:msg/PolynomialSegment4D.idl
+/home/bhadha/pico_ws/build/mav_planning_msgs/rosidl_adapter/mav_planning_msgs:msg/PolynomialTrajectory.idl
+/home/bhadha/pico_ws/build/mav_planning_msgs/rosidl_adapter/mav_planning_msgs:msg/PolynomialTrajectory4D.idl
+/home/bhadha/pico_ws/build/mav_planning_msgs/rosidl_adapter/mav_planning_msgs:srv/PlannerService.idl
+/home/bhadha/pico_ws/build/mav_planning_msgs/rosidl_adapter/mav_planning_msgs:srv/PolygonService.idl
+/home/bhadha/pico_ws/build/mav_planning_msgs/rosidl_adapter/mav_planning_msgs:srv/ChangeNameService.idl

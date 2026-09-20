@@ -1,0 +1,6 @@
+Invoking command in '/home/bhadha/pico_ws/build/mav_system_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhadha/pico_ws/src/mav_comm/mav_system_msgs -DCMAKE_INSTALL_PREFIX=/home/bhadha/pico_ws/install/mav_system_msgs
+Invoked command in '/home/bhadha/pico_ws/build/mav_system_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhadha/pico_ws/src/mav_comm/mav_system_msgs -DCMAKE_INSTALL_PREFIX=/home/bhadha/pico_ws/install/mav_system_msgs
+Invoking command in '/home/bhadha/pico_ws/build/mav_system_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhadha/pico_ws/build/mav_system_msgs -- -j12 -l12
+Invoked command in '/home/bhadha/pico_ws/build/mav_system_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhadha/pico_ws/build/mav_system_msgs -- -j12 -l12
+Invoking command in '/home/bhadha/pico_ws/build/mav_system_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhadha/pico_ws/build/mav_system_msgs
+Invoked command in '/home/bhadha/pico_ws/build/mav_system_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhadha/pico_ws/build/mav_system_msgs

@@ -1,0 +1,63 @@
+[0.017s] Invoking command in '/home/bhadha/pico_ws/build/rotors_control': AMENT_PREFIX_PATH=/home/bhadha/pico_ws/install/mav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bhadha/pico_ws/install/mav_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bhadha/pico_ws/install/mav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bhadha/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/bhadha/pico_ws/src/rotors_simulator/rotors_control -DCMAKE_INSTALL_PREFIX=/home/bhadha/pico_ws/install/rotors_control
+[0.030s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.228s] -- Found mav_msgs: 3.3.3 (/home/bhadha/pico_ws/install/mav_msgs/share/mav_msgs/cmake)
+[0.260s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.264s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.273s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.287s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.305s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.436s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.472s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.474s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.606s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.660s] -- Found actuator_msgs: 0.0.1 (/opt/ros/humble/share/actuator_msgs/cmake)
+[0.681s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.782s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.784s] -- Configured cppcheck include dirs: /home/bhadha/pico_ws/src/rotors_simulator/rotors_control/include
+[0.784s] -- Configured cppcheck exclude dirs and/or files: 
+[0.785s] -- Added test 'lint_cmake' to check CMake code style
+[0.786s] -- Added test 'uncrustify' to check C / C++ code style
+[0.786s] -- Configured uncrustify additional arguments: 
+[0.787s] -- Added test 'xmllint' to check XML markup files
+[0.790s] -- Configuring done
+[0.806s] -- Generating done
+[0.812s] -- Build files have been written to: /home/bhadha/pico_ws/build/rotors_control
+[0.823s] Invoked command in '/home/bhadha/pico_ws/build/rotors_control' returned '0': AMENT_PREFIX_PATH=/home/bhadha/pico_ws/install/mav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bhadha/pico_ws/install/mav_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bhadha/pico_ws/install/mav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bhadha/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/bhadha/pico_ws/src/rotors_simulator/rotors_control -DCMAKE_INSTALL_PREFIX=/home/bhadha/pico_ws/install/rotors_control
+[0.826s] Invoking command in '/home/bhadha/pico_ws/build/rotors_control': AMENT_PREFIX_PATH=/home/bhadha/pico_ws/install/mav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bhadha/pico_ws/install/mav_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bhadha/pico_ws/install/mav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bhadha/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bhadha/pico_ws/build/rotors_control -- -j12 -l12
+[0.895s] [ 25%] [32mBuilding CXX object CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/src/library/roll_pitch_yawrate_thrust_controller.cpp.o[0m
+[18.424s] [ 50%] [32m[1mLinking CXX static library libroll_pitch_yawrate_thrust_controller.a[0m
+[18.481s] [ 50%] Built target roll_pitch_yawrate_thrust_controller
+[18.497s] [ 75%] [32mBuilding CXX object CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o[0m
+[29.938s] [100%] [32m[1mLinking CXX executable roll_pitch_yawrate_thrust_controller_node[0m
+[30.493s] [100%] Built target roll_pitch_yawrate_thrust_controller_node
+[30.503s] Invoked command in '/home/bhadha/pico_ws/build/rotors_control' returned '0': AMENT_PREFIX_PATH=/home/bhadha/pico_ws/install/mav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bhadha/pico_ws/install/mav_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bhadha/pico_ws/install/mav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bhadha/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bhadha/pico_ws/build/rotors_control -- -j12 -l12
+[30.504s] Invoking command in '/home/bhadha/pico_ws/build/rotors_control': AMENT_PREFIX_PATH=/home/bhadha/pico_ws/install/mav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bhadha/pico_ws/install/mav_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bhadha/pico_ws/install/mav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bhadha/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bhadha/pico_ws/build/rotors_control
+[30.511s] -- Install configuration: ""
+[30.511s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/lib/libroll_pitch_yawrate_thrust_controller.a
+[30.513s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node
+[30.518s] -- Set runtime path of "/home/bhadha/pico_ws/install/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node" to ""
+[30.518s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/share/rotors_control/environment/library_path.sh
+[30.518s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/share/rotors_control/environment/library_path.dsv
+[30.518s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/include/rotors_control
+[30.518s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/include/rotors_control/parameters.hpp
+[30.518s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/include/rotors_control/roll_pitch_yawrate_thrust_controller.hpp
+[30.518s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/include/rotors_control/parameters_ros.hpp
+[30.518s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/include/rotors_control/common.hpp
+[30.518s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/share/ament_index/resource_index/package_run_dependencies/rotors_control
+[30.518s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/share/ament_index/resource_index/parent_prefix_path/rotors_control
+[30.519s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/share/rotors_control/environment/ament_prefix_path.sh
+[30.519s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/share/rotors_control/environment/ament_prefix_path.dsv
+[30.519s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/share/rotors_control/environment/path.sh
+[30.519s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/share/rotors_control/environment/path.dsv
+[30.519s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/share/rotors_control/local_setup.bash
+[30.519s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/share/rotors_control/local_setup.sh
+[30.519s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/share/rotors_control/local_setup.zsh
+[30.519s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/share/rotors_control/local_setup.dsv
+[30.519s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/share/rotors_control/package.dsv
+[30.519s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/share/ament_index/resource_index/packages/rotors_control
+[30.519s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/share/rotors_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.519s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/share/rotors_control/cmake/ament_cmake_export_libraries-extras.cmake
+[30.519s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/share/rotors_control/cmake/rotors_controlConfig.cmake
+[30.519s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/share/rotors_control/cmake/rotors_controlConfig-version.cmake
+[30.520s] -- Installing: /home/bhadha/pico_ws/install/rotors_control/share/rotors_control/package.xml
+[30.521s] Invoked command in '/home/bhadha/pico_ws/build/rotors_control' returned '0': AMENT_PREFIX_PATH=/home/bhadha/pico_ws/install/mav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bhadha/pico_ws/install/mav_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bhadha/pico_ws/install/mav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bhadha/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bhadha/pico_ws/build/rotors_control

@@ -1,0 +1,6 @@
+Invoking command in '/home/bhadha/pico_ws/build/rotors_swift_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhadha/pico_ws/src/rotors_simulator/rotors_swift_description -DCMAKE_INSTALL_PREFIX=/home/bhadha/pico_ws/install/rotors_swift_description
+Invoked command in '/home/bhadha/pico_ws/build/rotors_swift_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhadha/pico_ws/src/rotors_simulator/rotors_swift_description -DCMAKE_INSTALL_PREFIX=/home/bhadha/pico_ws/install/rotors_swift_description
+Invoking command in '/home/bhadha/pico_ws/build/rotors_swift_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhadha/pico_ws/build/rotors_swift_description -- -j12 -l12
+Invoked command in '/home/bhadha/pico_ws/build/rotors_swift_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhadha/pico_ws/build/rotors_swift_description -- -j12 -l12
+Invoking command in '/home/bhadha/pico_ws/build/rotors_swift_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhadha/pico_ws/build/rotors_swift_description
+Invoked command in '/home/bhadha/pico_ws/build/rotors_swift_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhadha/pico_ws/build/rotors_swift_description

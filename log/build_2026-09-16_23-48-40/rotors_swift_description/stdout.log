@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bhadha/pico_ws/build/rotors_swift_description
+-- Install configuration: ""
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/whycon_marker_file.xacro
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/swift_pico.sdf
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/propeller_ccw.dae
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/base_link.dae
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/cropped-image.png
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/m4_link.dae
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/textures
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/textures/whycon_marker.png
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/propeller_cw.dae
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/m1_link.dae
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/whycon2.obj
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/m2_link.dae
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/m3_link.dae
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/whycon2.mtl
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/textures
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/textures/whycon_marker.png
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/materials
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/materials/scripts
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/materials/scripts/whycon_marker.material
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/model.config
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/ament_index/resource_index/package_run_dependencies/rotors_swift_description
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/ament_index/resource_index/parent_prefix_path/rotors_swift_description
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/environment/ament_prefix_path.sh
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/environment/ament_prefix_path.dsv
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/environment/path.sh
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/environment/path.dsv
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/local_setup.bash
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/local_setup.sh
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/local_setup.zsh
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/local_setup.dsv
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/package.dsv
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/ament_index/resource_index/packages/rotors_swift_description
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/cmake/rotors_swift_descriptionConfig.cmake
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/cmake/rotors_swift_descriptionConfig-version.cmake
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/package.xml

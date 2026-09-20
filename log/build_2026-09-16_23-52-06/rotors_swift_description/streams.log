@@ -1,0 +1,43 @@
+[0.033s] Invoking command in '/home/bhadha/pico_ws/build/rotors_swift_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhadha/pico_ws/build/rotors_swift_description -- -j12 -l12
+[0.183s] Invoked command in '/home/bhadha/pico_ws/build/rotors_swift_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhadha/pico_ws/build/rotors_swift_description -- -j12 -l12
+[0.227s] Invoking command in '/home/bhadha/pico_ws/build/rotors_swift_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhadha/pico_ws/build/rotors_swift_description
+[0.277s] -- Install configuration: ""
+[0.278s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models
+[0.278s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico
+[0.278s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/whycon_marker_file.xacro
+[0.278s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/swift_pico.sdf
+[0.279s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes
+[0.279s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/propeller_ccw.dae
+[0.279s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/base_link.dae
+[0.279s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/cropped-image.png
+[0.279s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/m4_link.dae
+[0.279s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/textures
+[0.280s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/textures/whycon_marker.png
+[0.280s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/propeller_cw.dae
+[0.280s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/m1_link.dae
+[0.280s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/whycon2.obj
+[0.280s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/m2_link.dae
+[0.280s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/m3_link.dae
+[0.281s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/meshes/whycon2.mtl
+[0.281s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/textures
+[0.281s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/textures/whycon_marker.png
+[0.281s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/materials
+[0.281s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/materials/scripts
+[0.281s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/materials/scripts/whycon_marker.material
+[0.282s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/models/swift_pico/model.config
+[0.282s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/ament_index/resource_index/package_run_dependencies/rotors_swift_description
+[0.290s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/ament_index/resource_index/parent_prefix_path/rotors_swift_description
+[0.290s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/environment/ament_prefix_path.sh
+[0.291s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/environment/ament_prefix_path.dsv
+[0.291s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/environment/path.sh
+[0.291s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/environment/path.dsv
+[0.291s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/local_setup.bash
+[0.301s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/local_setup.sh
+[0.303s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/local_setup.zsh
+[0.304s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/local_setup.dsv
+[0.304s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/package.dsv
+[0.304s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/ament_index/resource_index/packages/rotors_swift_description
+[0.304s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/cmake/rotors_swift_descriptionConfig.cmake
+[0.304s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/cmake/rotors_swift_descriptionConfig-version.cmake
+[0.304s] -- Up-to-date: /home/bhadha/pico_ws/install/rotors_swift_description/share/rotors_swift_description/package.xml
+[0.335s] Invoked command in '/home/bhadha/pico_ws/build/rotors_swift_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhadha/pico_ws/build/rotors_swift_description

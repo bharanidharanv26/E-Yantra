@@ -1,0 +1,53 @@
+[0.032s] Invoking command in '/home/bhadha/pico_ws/build/swift_pico_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhadha/pico_ws/src/swift_pico_description -DCMAKE_INSTALL_PREFIX=/home/bhadha/pico_ws/install/swift_pico_description
+[1.274s] -- The C compiler identification is GNU 11.4.0
+[1.274s] -- The CXX compiler identification is GNU 11.4.0
+[1.274s] -- Detecting C compiler ABI info
+[1.274s] -- Detecting C compiler ABI info - done
+[1.274s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.274s] -- Detecting C compile features
+[1.275s] -- Detecting C compile features - done
+[1.275s] -- Detecting CXX compiler ABI info
+[1.275s] -- Detecting CXX compiler ABI info - done
+[1.275s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.275s] -- Detecting CXX compile features
+[1.275s] -- Detecting CXX compile features - done
+[1.275s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.275s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.276s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.305s] -- Configuring done
+[1.311s] -- Generating done
+[1.315s] -- Build files have been written to: /home/bhadha/pico_ws/build/swift_pico_description
+[1.321s] Invoked command in '/home/bhadha/pico_ws/build/swift_pico_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhadha/pico_ws/src/swift_pico_description -DCMAKE_INSTALL_PREFIX=/home/bhadha/pico_ws/install/swift_pico_description
+[1.324s] Invoking command in '/home/bhadha/pico_ws/build/swift_pico_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhadha/pico_ws/build/swift_pico_description -- -j12 -l12
+[1.392s] Invoked command in '/home/bhadha/pico_ws/build/swift_pico_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhadha/pico_ws/build/swift_pico_description -- -j12 -l12
+[1.396s] Invoking command in '/home/bhadha/pico_ws/build/swift_pico_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhadha/pico_ws/build/swift_pico_description
+[1.512s] -- Install configuration: ""
+[1.512s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/models
+[1.512s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico
+[1.512s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes
+[1.513s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/m4_link.obj
+[1.513s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/triangle_marker.obj
+[1.513s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/textures
+[1.513s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/textures/whycode_marker_1.png
+[1.513s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/textures/Khojo_Arena.png
+[1.514s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/whycon_marker.obj
+[1.514s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/m1_link.obj
+[1.514s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/base_link.obj
+[1.514s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/arena.xml
+[1.514s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/drone.xml
+[1.515s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/ament_index/resource_index/package_run_dependencies/swift_pico_description
+[1.515s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/ament_index/resource_index/parent_prefix_path/swift_pico_description
+[1.515s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/environment/ament_prefix_path.sh
+[1.515s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/environment/ament_prefix_path.dsv
+[1.515s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/environment/path.sh
+[1.515s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/environment/path.dsv
+[1.516s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/local_setup.bash
+[1.516s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/local_setup.sh
+[1.516s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/local_setup.zsh
+[1.516s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/local_setup.dsv
+[1.516s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/package.dsv
+[1.516s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/ament_index/resource_index/packages/swift_pico_description
+[1.517s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/cmake/swift_pico_descriptionConfig.cmake
+[1.517s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/cmake/swift_pico_descriptionConfig-version.cmake
+[1.517s] -- Installing: /home/bhadha/pico_ws/install/swift_pico_description/share/swift_pico_description/package.xml
+[1.572s] Invoked command in '/home/bhadha/pico_ws/build/swift_pico_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhadha/pico_ws/build/swift_pico_description

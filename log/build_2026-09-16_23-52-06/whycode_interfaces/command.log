@@ -1,0 +1,4 @@
+Invoking command in '/home/bhadha/pico_ws/build/whycode_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhadha/pico_ws/build/whycode_interfaces -- -j12 -l12
+Invoked command in '/home/bhadha/pico_ws/build/whycode_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhadha/pico_ws/build/whycode_interfaces -- -j12 -l12
+Invoking command in '/home/bhadha/pico_ws/build/whycode_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhadha/pico_ws/build/whycode_interfaces
+Invoked command in '/home/bhadha/pico_ws/build/whycode_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhadha/pico_ws/build/whycode_interfaces

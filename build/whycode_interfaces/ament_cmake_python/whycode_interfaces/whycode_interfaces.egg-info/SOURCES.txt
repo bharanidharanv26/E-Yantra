@@ -1,0 +1,16 @@
+setup.py
+whycode_interfaces/__init__.py
+whycode_interfaces.egg-info/PKG-INFO
+whycode_interfaces.egg-info/SOURCES.txt
+whycode_interfaces.egg-info/dependency_links.txt
+whycode_interfaces.egg-info/top_level.txt
+whycode_interfaces/msg/__init__.py
+whycode_interfaces/msg/_marker.py
+whycode_interfaces/msg/_marker_array.py
+whycode_interfaces/srv/__init__.py
+whycode_interfaces/srv/_get_gui_settings.py
+whycode_interfaces/srv/_select_marker.py
+whycode_interfaces/srv/_set_calib_method.py
+whycode_interfaces/srv/_set_calib_path.py
+whycode_interfaces/srv/_set_coords.py
+whycode_interfaces/srv/_set_drawing.py

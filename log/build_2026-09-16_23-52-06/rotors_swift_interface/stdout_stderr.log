@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/rotors_swift_interface.dir/src/swift_trans.cpp.o[0m
+[100%] [32m[1mLinking CXX executable rotors_swift_interface[0m
+[100%] Built target rotors_swift_interface
+-- Install configuration: ""
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_interface/lib/rotors_swift_interface/rotors_swift_interface
+-- Set runtime path of "/home/bhadha/pico_ws/install/rotors_swift_interface/lib/rotors_swift_interface/rotors_swift_interface" to ""
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_interface/share/ament_index/resource_index/package_run_dependencies/rotors_swift_interface
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_interface/share/ament_index/resource_index/parent_prefix_path/rotors_swift_interface
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_interface/share/rotors_swift_interface/environment/ament_prefix_path.sh
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_interface/share/rotors_swift_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_interface/share/rotors_swift_interface/environment/path.sh
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_interface/share/rotors_swift_interface/environment/path.dsv
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_interface/share/rotors_swift_interface/local_setup.bash
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_interface/share/rotors_swift_interface/local_setup.sh
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_interface/share/rotors_swift_interface/local_setup.zsh
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_interface/share/rotors_swift_interface/local_setup.dsv
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_interface/share/rotors_swift_interface/package.dsv
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_interface/share/ament_index/resource_index/packages/rotors_swift_interface
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_interface/share/rotors_swift_interface/cmake/rotors_swift_interfaceConfig.cmake
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_interface/share/rotors_swift_interface/cmake/rotors_swift_interfaceConfig-version.cmake
+-- Installing: /home/bhadha/pico_ws/install/rotors_swift_interface/share/rotors_swift_interface/package.xml

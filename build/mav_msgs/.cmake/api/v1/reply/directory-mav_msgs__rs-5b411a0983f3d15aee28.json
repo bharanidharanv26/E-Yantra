@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mav_msgs__rs",
+		"source" : "/home/bhadha/pico_ws/build/mav_msgs/mav_msgs__rs"
+	}
+}

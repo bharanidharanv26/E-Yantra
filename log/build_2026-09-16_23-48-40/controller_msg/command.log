@@ -1,0 +1,6 @@
+Invoking command in '/home/bhadha/pico_ws/build/controller_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhadha/pico_ws/src/controller_tuner/controller_msg -DCMAKE_INSTALL_PREFIX=/home/bhadha/pico_ws/install/controller_msg
+Invoked command in '/home/bhadha/pico_ws/build/controller_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhadha/pico_ws/src/controller_tuner/controller_msg -DCMAKE_INSTALL_PREFIX=/home/bhadha/pico_ws/install/controller_msg
+Invoking command in '/home/bhadha/pico_ws/build/controller_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhadha/pico_ws/build/controller_msg -- -j12 -l12
+Invoked command in '/home/bhadha/pico_ws/build/controller_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhadha/pico_ws/build/controller_msg -- -j12 -l12
+Invoking command in '/home/bhadha/pico_ws/build/controller_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhadha/pico_ws/build/controller_msg
+Invoked command in '/home/bhadha/pico_ws/build/controller_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhadha/pico_ws/build/controller_msg

@@ -1,0 +1,478 @@
+[0.026s] Invoking command in '/home/bhadha/pico_ws/build/whycode_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhadha/pico_ws/src/whycode-ros2/whycode-ros2-interfaces -DCMAKE_INSTALL_PREFIX=/home/bhadha/pico_ws/install/whycode_interfaces
+[0.150s] -- The C compiler identification is GNU 11.4.0
+[0.269s] -- The CXX compiler identification is GNU 11.4.0
+[0.287s] -- Detecting C compiler ABI info
+[0.409s] -- Detecting C compiler ABI info - done
+[0.429s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.430s] -- Detecting C compile features
+[0.431s] -- Detecting C compile features - done
+[0.439s] -- Detecting CXX compiler ABI info
+[0.601s] -- Detecting CXX compiler ABI info - done
+[0.616s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.617s] -- Detecting CXX compile features
+[0.618s] -- Detecting CXX compile features - done
+[0.621s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.941s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.149s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.161s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.230s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.327s] -- Found std_msgs: 4.9.2 (/opt/ros/humble/share/std_msgs/cmake)
+[1.395s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.169s] -- Found ament_cmake_cppcheck: 0.12.15 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.173s] -- Found ament_cmake_cpplint: 0.12.15 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.177s] -- Found ament_cmake_uncrustify: 0.12.15 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.182s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.862s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.948s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.056s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.069s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.247s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.248s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.248s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.248s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.328s] -- Found PythonExtra: .so  
+[4.723s] -- Found ament_cmake_flake8: 0.12.15 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[4.727s] -- Found ament_cmake_pep257: 0.12.15 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[5.328s] -- Configuring done
+[5.706s] -- Generating done
+[5.820s] -- Build files have been written to: /home/bhadha/pico_ws/build/whycode_interfaces
+[5.905s] Invoked command in '/home/bhadha/pico_ws/build/whycode_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhadha/pico_ws/src/whycode-ros2/whycode-ros2-interfaces -DCMAKE_INSTALL_PREFIX=/home/bhadha/pico_ws/install/whycode_interfaces
+[5.906s] Invoking command in '/home/bhadha/pico_ws/build/whycode_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhadha/pico_ws/build/whycode_interfaces -- -j12 -l12
+[6.153s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.269s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.308s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[6.331s] [  3%] Built target ament_cmake_python_copy_whycode_interfaces
+[10.055s] running egg_info
+[10.067s] creating whycode_interfaces.egg-info
+[10.067s] writing whycode_interfaces.egg-info/PKG-INFO
+[10.074s] writing dependency_links to whycode_interfaces.egg-info/dependency_links.txt
+[10.075s] writing top-level names to whycode_interfaces.egg-info/top_level.txt
+[10.075s] writing manifest file 'whycode_interfaces.egg-info/SOURCES.txt'
+[10.110s] reading manifest file 'whycode_interfaces.egg-info/SOURCES.txt'
+[10.123s] writing manifest file 'whycode_interfaces.egg-info/SOURCES.txt'
+[10.474s] [  3%] Built target ament_cmake_python_build_whycode_interfaces_egg
+[14.313s] [  3%] Built target whycode_interfaces__rs
+[15.711s] [  4%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_generator_c.dir/rosidl_generator_c/whycode_interfaces/msg/detail/marker_array__functions.c.o[0m
+[15.711s] [  5%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_generator_c.dir/rosidl_generator_c/whycode_interfaces/srv/detail/set_calib_method__functions.c.o[0m
+[15.715s] [  6%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_generator_c.dir/rosidl_generator_c/whycode_interfaces/srv/detail/set_calib_path__functions.c.o[0m
+[15.715s] [  7%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_generator_c.dir/rosidl_generator_c/whycode_interfaces/srv/detail/select_marker__functions.c.o[0m
+[15.719s] [  9%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_generator_c.dir/rosidl_generator_c/whycode_interfaces/msg/detail/marker__functions.c.o[0m
+[15.722s] [ 10%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_generator_c.dir/rosidl_generator_c/whycode_interfaces/srv/detail/set_coords__functions.c.o[0m
+[15.728s] [ 11%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_generator_c.dir/rosidl_generator_c/whycode_interfaces/srv/detail/get_gui_settings__functions.c.o[0m
+[15.730s] [ 12%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_generator_c.dir/rosidl_generator_c/whycode_interfaces/srv/detail/set_drawing__functions.c.o[0m
+[16.034s] [ 13%] [32m[1mLinking C shared library libwhycode_interfaces__rosidl_generator_c.so[0m
+[16.146s] [ 13%] Built target whycode_interfaces__cpp
+[16.177s] [ 13%] Built target whycode_interfaces__rosidl_generator_c
+[16.177s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[16.177s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[16.177s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[16.202s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[16.202s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[16.202s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[19.102s] [ 21%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/whycode_interfaces/msg/detail/marker__type_support.c.o[0m
+[19.120s] [ 22%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/whycode_interfaces/msg/detail/marker_array__type_support.c.o[0m
+[19.122s] [ 23%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/whycode_interfaces/srv/detail/select_marker__type_support.c.o[0m
+[19.175s] [ 25%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/whycode_interfaces/srv/detail/set_calib_method__type_support.c.o[0m
+[19.179s] [ 26%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/whycode_interfaces/srv/detail/set_coords__type_support.c.o[0m
+[19.202s] [ 27%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/whycode_interfaces/msg/marker__type_support.cpp.o[0m
+[19.202s] [ 28%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/whycode_interfaces/srv/detail/set_calib_path__type_support.c.o[0m
+[19.214s] [ 29%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/whycode_interfaces/msg/marker_array__type_support.cpp.o[0m
+[19.322s] [ 30%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/whycode_interfaces/srv/detail/set_drawing__type_support.c.o[0m
+[19.326s] [ 31%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/whycode_interfaces/msg/marker__type_support.cpp.o[0m
+[19.409s] [ 32%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/whycode_interfaces/srv/select_marker__type_support.cpp.o[0m
+[19.411s] [ 34%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/whycode_interfaces/srv/detail/get_gui_settings__type_support.c.o[0m
+[19.451s] [ 35%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/whycode_interfaces/msg/marker_array__type_support.cpp.o[0m
+[19.465s] [ 36%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/whycode_interfaces/srv/select_marker__type_support.cpp.o[0m
+[19.495s] [ 37%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/whycode_interfaces/srv/set_calib_method__type_support.cpp.o[0m
+[19.522s] [ 38%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/whycode_interfaces/srv/set_calib_method__type_support.cpp.o[0m
+[19.531s] [ 39%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/whycode_interfaces/srv/set_calib_path__type_support.cpp.o[0m
+[19.590s] [ 40%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/whycode_interfaces/srv/set_coords__type_support.cpp.o[0m
+[19.618s] [ 42%] [32m[1mLinking C shared library libwhycode_interfaces__rosidl_typesupport_introspection_c.so[0m
+[19.696s] [ 43%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/whycode_interfaces/srv/set_drawing__type_support.cpp.o[0m
+[19.703s] [ 44%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/whycode_interfaces/srv/set_calib_path__type_support.cpp.o[0m
+[19.838s] [ 44%] Built target whycode_interfaces__rosidl_typesupport_introspection_c
+[19.897s] [ 45%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/whycode_interfaces/srv/get_gui_settings__type_support.cpp.o[0m
+[19.903s] [ 46%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/whycode_interfaces/msg/detail/dds_fastrtps/marker__type_support.cpp.o[0m
+[19.929s] [ 47%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/whycode_interfaces/srv/set_coords__type_support.cpp.o[0m
+[20.136s] [ 48%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/whycode_interfaces/srv/set_drawing__type_support.cpp.o[0m
+[20.326s] [ 50%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/whycode_interfaces/srv/get_gui_settings__type_support.cpp.o[0m
+[20.473s] [ 51%] [32m[1mLinking CXX shared library libwhycode_interfaces__rosidl_typesupport_c.so[0m
+[20.584s] [ 52%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/whycode_interfaces/msg/detail/marker__type_support.cpp.o[0m
+[20.754s] [ 52%] Built target whycode_interfaces__rosidl_typesupport_c
+[20.804s] [ 53%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/whycode_interfaces/msg/detail/marker_array__type_support.cpp.o[0m
+[20.820s] [ 54%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/whycode_interfaces/srv/detail/select_marker__type_support.cpp.o[0m
+[20.906s] [ 55%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/whycode_interfaces/msg/detail/dds_fastrtps/marker_array__type_support.cpp.o[0m
+[20.943s] [ 56%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/whycode_interfaces/srv/detail/dds_fastrtps/select_marker__type_support.cpp.o[0m
+[20.947s] [ 57%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/whycode_interfaces/srv/detail/dds_fastrtps/set_calib_method__type_support.cpp.o[0m
+[20.955s] [ 59%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/whycode_interfaces/srv/detail/set_calib_method__type_support.cpp.o[0m
+[21.321s] [ 60%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/whycode_interfaces/srv/detail/set_calib_path__type_support.cpp.o[0m
+[21.325s] [ 61%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/whycode_interfaces/srv/detail/dds_fastrtps/set_calib_path__type_support.cpp.o[0m
+[21.442s] [ 62%] [32m[1mLinking CXX shared library libwhycode_interfaces__rosidl_typesupport_cpp.so[0m
+[21.716s] [ 62%] Built target whycode_interfaces__rosidl_typesupport_cpp
+[21.779s] [ 63%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/whycode_interfaces/srv/detail/dds_fastrtps/set_coords__type_support.cpp.o[0m
+[21.989s] [ 64%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/whycode_interfaces/msg/detail/marker__type_support_c.cpp.o[0m
+[22.682s] [ 65%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/whycode_interfaces/srv/detail/set_coords__type_support.cpp.o[0m
+[22.732s] [ 67%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/whycode_interfaces/msg/detail/marker_array__type_support_c.cpp.o[0m
+[22.758s] [ 68%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/whycode_interfaces/srv/detail/select_marker__type_support_c.cpp.o[0m
+[22.786s] [ 69%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/whycode_interfaces/srv/detail/dds_fastrtps/set_drawing__type_support.cpp.o[0m
+[23.153s] [ 70%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/whycode_interfaces/srv/detail/set_calib_method__type_support_c.cpp.o[0m
+[23.279s] [ 71%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/whycode_interfaces/srv/detail/set_calib_path__type_support_c.cpp.o[0m
+[23.378s] [ 72%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/whycode_interfaces/srv/detail/set_coords__type_support_c.cpp.o[0m
+[23.475s] [ 73%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/whycode_interfaces/srv/detail/set_drawing__type_support.cpp.o[0m
+[23.610s] [ 75%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/whycode_interfaces/srv/detail/set_drawing__type_support_c.cpp.o[0m
+[23.711s] [ 76%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/whycode_interfaces/srv/detail/dds_fastrtps/get_gui_settings__type_support.cpp.o[0m
+[24.232s] [ 77%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/whycode_interfaces/srv/detail/get_gui_settings__type_support.cpp.o[0m
+[24.607s] [ 78%] [32mBuilding CXX object CMakeFiles/whycode_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/whycode_interfaces/srv/detail/get_gui_settings__type_support_c.cpp.o[0m
+[25.588s] [ 79%] [32m[1mLinking CXX shared library libwhycode_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[26.066s] [ 79%] Built target whycode_interfaces__rosidl_typesupport_fastrtps_cpp
+[26.211s] [ 80%] [32m[1mLinking CXX shared library libwhycode_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[26.261s] [ 81%] [32m[1mLinking CXX shared library libwhycode_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[26.694s] [ 81%] Built target whycode_interfaces__rosidl_typesupport_fastrtps_c
+[26.716s] [ 81%] Built target whycode_interfaces__rosidl_typesupport_introspection_cpp
+[26.775s] [ 81%] Built target whycode_interfaces
+[26.835s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[30.008s] [ 82%] Built target whycode_interfaces__py
+[30.032s] [ 85%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_generator_py.dir/rosidl_generator_py/whycode_interfaces/msg/_marker_array_s.c.o[0m
+[30.032s] [ 85%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_generator_py.dir/rosidl_generator_py/whycode_interfaces/srv/_set_calib_method_s.c.o[0m
+[30.034s] [ 86%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_generator_py.dir/rosidl_generator_py/whycode_interfaces/msg/_marker_s.c.o[0m
+[30.034s] [ 87%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_generator_py.dir/rosidl_generator_py/whycode_interfaces/srv/_set_calib_path_s.c.o[0m
+[30.034s] [ 88%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_generator_py.dir/rosidl_generator_py/whycode_interfaces/srv/_select_marker_s.c.o[0m
+[30.035s] [ 89%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_generator_py.dir/rosidl_generator_py/whycode_interfaces/srv/_set_coords_s.c.o[0m
+[30.035s] [ 90%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_generator_py.dir/rosidl_generator_py/whycode_interfaces/srv/_set_drawing_s.c.o[0m
+[30.036s] [ 92%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_generator_py.dir/rosidl_generator_py/whycode_interfaces/srv/_get_gui_settings_s.c.o[0m
+[30.335s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/whycode_interfaces/libwhycode_interfaces__rosidl_generator_py.so[0m
+[30.394s] [ 93%] Built target whycode_interfaces__rosidl_generator_py
+[30.416s] [ 94%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/whycode_interfaces/_whycode_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[30.416s] [ 95%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/whycode_interfaces/_whycode_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[30.417s] [ 96%] [32mBuilding C object CMakeFiles/whycode_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/whycode_interfaces/_whycode_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[30.612s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/whycode_interfaces/whycode_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[30.612s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/whycode_interfaces/whycode_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[30.612s] [100%] [32m[1mLinking C shared library rosidl_generator_py/whycode_interfaces/whycode_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[30.669s] [100%] Built target whycode_interfaces__rosidl_typesupport_introspection_c__pyext
+[30.669s] [100%] Built target whycode_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[30.669s] [100%] Built target whycode_interfaces__rosidl_typesupport_c__pyext
+[30.686s] Invoked command in '/home/bhadha/pico_ws/build/whycode_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhadha/pico_ws/build/whycode_interfaces -- -j12 -l12
+[30.687s] Invoking command in '/home/bhadha/pico_ws/build/whycode_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhadha/pico_ws/build/whycode_interfaces
+[30.697s] -- Install configuration: ""
+[30.697s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/ament_index/resource_index/rosidl_interfaces/whycode_interfaces
+[30.698s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces
+[30.698s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg
+[30.698s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail
+[30.698s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker_array__struct.h
+[30.698s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker__type_support.h
+[30.698s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker__functions.h
+[30.698s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker__struct.h
+[30.698s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker__functions.c
+[30.698s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker_array__type_support.h
+[30.698s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker_array__functions.c
+[30.699s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker_array__functions.h
+[30.699s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/rosidl_generator_c__visibility_control.h
+[30.699s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/marker.h
+[30.699s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/marker_array.h
+[30.699s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv
+[30.699s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail
+[30.699s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/select_marker__struct.h
+[30.699s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/get_gui_settings__type_support.h
+[30.699s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/get_gui_settings__functions.c
+[30.699s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_method__functions.h
+[30.700s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/select_marker__type_support.h
+[30.700s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_path__struct.h
+[30.700s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_path__type_support.h
+[30.700s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_method__type_support.h
+[30.700s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_method__struct.h
+[30.700s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/get_gui_settings__struct.h
+[30.700s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_method__functions.c
+[30.700s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_drawing__functions.c
+[30.700s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_coords__type_support.h
+[30.700s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/get_gui_settings__functions.h
+[30.701s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_drawing__functions.h
+[30.701s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_path__functions.c
+[30.701s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_drawing__type_support.h
+[30.701s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_drawing__struct.h
+[30.701s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_coords__struct.h
+[30.701s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_coords__functions.c
+[30.701s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_path__functions.h
+[30.701s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/select_marker__functions.c
+[30.701s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_coords__functions.h
+[30.702s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/select_marker__functions.h
+[30.702s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/select_marker.h
+[30.702s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/get_gui_settings.h
+[30.702s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/set_calib_method.h
+[30.702s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/set_drawing.h
+[30.702s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/set_calib_path.h
+[30.702s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/set_coords.h
+[30.702s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/environment/library_path.sh
+[30.702s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/environment/library_path.dsv
+[30.703s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/lib/libwhycode_interfaces__rosidl_generator_c.so
+[30.703s] -- Set runtime path of "/home/bhadha/pico_ws/install/whycode_interfaces/lib/libwhycode_interfaces__rosidl_generator_c.so" to ""
+[30.703s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces
+[30.703s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg
+[30.703s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail
+[30.703s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker_array__rosidl_typesupport_fastrtps_c.h
+[30.704s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+[30.704s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[30.704s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv
+[30.704s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail
+[30.704s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_drawing__rosidl_typesupport_fastrtps_c.h
+[30.704s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_path__rosidl_typesupport_fastrtps_c.h
+[30.704s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/get_gui_settings__rosidl_typesupport_fastrtps_c.h
+[30.704s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_method__rosidl_typesupport_fastrtps_c.h
+[30.704s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/select_marker__rosidl_typesupport_fastrtps_c.h
+[30.704s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_coords__rosidl_typesupport_fastrtps_c.h
+[30.704s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/lib/libwhycode_interfaces__rosidl_typesupport_fastrtps_c.so
+[30.705s] -- Set runtime path of "/home/bhadha/pico_ws/install/whycode_interfaces/lib/libwhycode_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[30.705s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces
+[30.705s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg
+[30.705s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail
+[30.705s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker_array__type_support.c
+[30.705s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker__rosidl_typesupport_introspection_c.h
+[30.705s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker__type_support.c
+[30.705s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker_array__rosidl_typesupport_introspection_c.h
+[30.705s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[30.705s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv
+[30.706s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail
+[30.706s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/get_gui_settings__type_support.c
+[30.706s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_drawing__rosidl_typesupport_introspection_c.h
+[30.706s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_method__type_support.c
+[30.706s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/select_marker__rosidl_typesupport_introspection_c.h
+[30.706s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/get_gui_settings__rosidl_typesupport_introspection_c.h
+[30.706s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_coords__type_support.c
+[30.706s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/select_marker__type_support.c
+[30.706s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_path__type_support.c
+[30.706s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_coords__rosidl_typesupport_introspection_c.h
+[30.706s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_drawing__type_support.c
+[30.707s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_path__rosidl_typesupport_introspection_c.h
+[30.707s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_method__rosidl_typesupport_introspection_c.h
+[30.707s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/lib/libwhycode_interfaces__rosidl_typesupport_introspection_c.so
+[30.707s] -- Set runtime path of "/home/bhadha/pico_ws/install/whycode_interfaces/lib/libwhycode_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[30.707s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/lib/libwhycode_interfaces__rosidl_typesupport_c.so
+[30.707s] -- Set runtime path of "/home/bhadha/pico_ws/install/whycode_interfaces/lib/libwhycode_interfaces__rosidl_typesupport_c.so" to ""
+[30.708s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces
+[30.708s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg
+[30.708s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail
+[30.708s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker__struct.hpp
+[30.708s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker_array__type_support.hpp
+[30.708s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker_array__traits.hpp
+[30.708s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker_array__struct.hpp
+[30.708s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker__type_support.hpp
+[30.708s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker__traits.hpp
+[30.708s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker_array__builder.hpp
+[30.708s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker__builder.hpp
+[30.709s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[30.709s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/marker_array.hpp
+[30.709s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/marker.hpp
+[30.709s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv
+[30.709s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail
+[30.709s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_path__traits.hpp
+[30.709s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_path__type_support.hpp
+[30.709s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_path__builder.hpp
+[30.709s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_method__builder.hpp
+[30.709s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_drawing__type_support.hpp
+[30.709s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_drawing__traits.hpp
+[30.710s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_drawing__builder.hpp
+[30.710s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_method__struct.hpp
+[30.710s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_path__struct.hpp
+[30.710s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/get_gui_settings__traits.hpp
+[30.710s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/get_gui_settings__builder.hpp
+[30.710s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_method__type_support.hpp
+[30.710s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/select_marker__struct.hpp
+[30.710s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_method__traits.hpp
+[30.710s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_coords__type_support.hpp
+[30.710s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_coords__traits.hpp
+[30.711s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/get_gui_settings__struct.hpp
+[30.711s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_coords__builder.hpp
+[30.711s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/select_marker__builder.hpp
+[30.711s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/select_marker__traits.hpp
+[30.711s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_coords__struct.hpp
+[30.712s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/get_gui_settings__type_support.hpp
+[30.712s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_drawing__struct.hpp
+[30.712s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/select_marker__type_support.hpp
+[30.712s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/set_coords.hpp
+[30.712s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/set_calib_path.hpp
+[30.712s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/select_marker.hpp
+[30.712s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/get_gui_settings.hpp
+[30.712s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/set_drawing.hpp
+[30.712s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/set_calib_method.hpp
+[30.713s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces
+[30.713s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg
+[30.713s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[30.713s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail
+[30.713s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/dds_fastrtps
+[30.713s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp
+[30.713s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+[30.713s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv
+[30.713s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail
+[30.713s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_method__rosidl_typesupport_fastrtps_cpp.hpp
+[30.714s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/select_marker__rosidl_typesupport_fastrtps_cpp.hpp
+[30.714s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_drawing__rosidl_typesupport_fastrtps_cpp.hpp
+[30.714s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/dds_fastrtps
+[30.714s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[30.714s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/get_gui_settings__rosidl_typesupport_fastrtps_cpp.hpp
+[30.714s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_path__rosidl_typesupport_fastrtps_cpp.hpp
+[30.714s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/lib/libwhycode_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[30.715s] -- Set runtime path of "/home/bhadha/pico_ws/install/whycode_interfaces/lib/libwhycode_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[30.715s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces
+[30.715s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg
+[30.715s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail
+[30.715s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker_array__type_support.cpp
+[30.715s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+[30.715s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker__type_support.cpp
+[30.715s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/msg/detail/marker_array__rosidl_typesupport_introspection_cpp.hpp
+[30.715s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv
+[30.715s] -- Up-to-date: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail
+[30.715s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_path__rosidl_typesupport_introspection_cpp.hpp
+[30.716s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_coords__rosidl_typesupport_introspection_cpp.hpp
+[30.716s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/get_gui_settings__type_support.cpp
+[30.716s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_path__type_support.cpp
+[30.716s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/get_gui_settings__rosidl_typesupport_introspection_cpp.hpp
+[30.716s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/select_marker__type_support.cpp
+[30.716s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_method__rosidl_typesupport_introspection_cpp.hpp
+[30.716s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/select_marker__rosidl_typesupport_introspection_cpp.hpp
+[30.716s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_drawing__type_support.cpp
+[30.716s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_coords__type_support.cpp
+[30.716s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_drawing__rosidl_typesupport_introspection_cpp.hpp
+[30.716s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/include/whycode_interfaces/whycode_interfaces/srv/detail/set_calib_method__type_support.cpp
+[30.717s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/lib/libwhycode_interfaces__rosidl_typesupport_introspection_cpp.so
+[30.717s] -- Set runtime path of "/home/bhadha/pico_ws/install/whycode_interfaces/lib/libwhycode_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[30.717s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/lib/libwhycode_interfaces__rosidl_typesupport_cpp.so
+[30.717s] -- Set runtime path of "/home/bhadha/pico_ws/install/whycode_interfaces/lib/libwhycode_interfaces__rosidl_typesupport_cpp.so" to ""
+[30.717s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/environment/pythonpath.sh
+[30.718s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/environment/pythonpath.dsv
+[30.718s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces-0.0.1-py3.10.egg-info
+[30.718s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces-0.0.1-py3.10.egg-info/SOURCES.txt
+[30.718s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces-0.0.1-py3.10.egg-info/PKG-INFO
+[30.718s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces-0.0.1-py3.10.egg-info/top_level.txt
+[30.718s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces-0.0.1-py3.10.egg-info/dependency_links.txt
+[30.718s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces
+[30.718s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/libwhycode_interfaces__rosidl_generator_py.so
+[30.719s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/msg
+[30.719s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/msg/_marker_array_s.c
+[30.719s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/msg/_marker_array.py
+[30.719s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/msg/__init__.py
+[30.719s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/msg/_marker.py
+[30.719s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/msg/_marker_s.c
+[30.719s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/_whycode_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[30.719s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/__init__.py
+[30.720s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/whycode_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[30.720s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv
+[30.720s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv/_set_drawing.py
+[30.720s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv/_set_drawing_s.c
+[30.720s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv/__init__.py
+[30.720s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv/_get_gui_settings_s.c
+[30.720s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv/_set_coords_s.c
+[30.721s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv/_select_marker_s.c
+[30.721s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv/_get_gui_settings.py
+[30.721s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv/_set_calib_path_s.c
+[30.721s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv/_set_calib_method.py
+[30.721s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv/_set_calib_method_s.c
+[30.721s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv/_set_coords.py
+[30.721s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv/_select_marker.py
+[30.721s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv/_set_calib_path.py
+[30.722s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/_whycode_interfaces_s.ep.rosidl_typesupport_c.c
+[30.722s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/whycode_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[30.722s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/_whycode_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[30.722s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/whycode_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[30.776s] Listing '/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces'...
+[30.776s] Compiling '/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/__init__.py'...
+[30.776s] Listing '/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/msg'...
+[30.776s] Compiling '/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/msg/__init__.py'...
+[30.776s] Compiling '/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/msg/_marker.py'...
+[30.777s] Compiling '/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/msg/_marker_array.py'...
+[30.777s] Listing '/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv'...
+[30.777s] Compiling '/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv/__init__.py'...
+[30.777s] Compiling '/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv/_get_gui_settings.py'...
+[30.777s] Compiling '/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv/_select_marker.py'...
+[30.777s] Compiling '/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv/_set_calib_method.py'...
+[30.777s] Compiling '/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv/_set_calib_path.py'...
+[30.777s] Compiling '/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv/_set_coords.py'...
+[30.777s] Compiling '/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/srv/_set_drawing.py'...
+[30.782s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/whycode_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[30.782s] -- Set runtime path of "/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/whycode_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[30.783s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/whycode_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[30.783s] -- Set runtime path of "/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/whycode_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[30.783s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/whycode_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[30.783s] -- Set runtime path of "/home/bhadha/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages/whycode_interfaces/whycode_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[30.783s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/lib/libwhycode_interfaces__rosidl_generator_py.so
+[30.784s] -- Set runtime path of "/home/bhadha/pico_ws/install/whycode_interfaces/lib/libwhycode_interfaces__rosidl_generator_py.so" to ""
+[30.784s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/ament_index/resource_index/rust_packages/whycode_interfaces
+[30.784s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/rust
+[30.784s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/rust/build.rs
+[30.784s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/rust/src
+[30.785s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/rust/src/msg
+[30.785s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/rust/src/msg/rmw.rs
+[30.785s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/rust/src/srv
+[30.785s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/rust/src/srv/rmw.rs
+[30.785s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/rust/src/lib.rs
+[30.785s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/rust/src/msg.rs
+[30.785s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/rust/src/srv.rs
+[30.785s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/rust/Cargo.toml
+[30.785s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/msg/Marker.idl
+[30.786s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/msg/MarkerArray.idl
+[30.786s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/SelectMarker.idl
+[30.786s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/SetCalibMethod.idl
+[30.786s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/SetCalibPath.idl
+[30.786s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/SetCoords.idl
+[30.786s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/SetDrawing.idl
+[30.786s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/GetGuiSettings.idl
+[30.786s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/msg/Marker.msg
+[30.787s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/msg/MarkerArray.msg
+[30.787s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/SelectMarker.srv
+[30.787s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/SelectMarker_Request.msg
+[30.787s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/SelectMarker_Response.msg
+[30.787s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/SetCalibMethod.srv
+[30.787s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/SetCalibMethod_Request.msg
+[30.787s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/SetCalibMethod_Response.msg
+[30.787s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/SetCalibPath.srv
+[30.788s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/SetCalibPath_Request.msg
+[30.788s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/SetCalibPath_Response.msg
+[30.788s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/SetCoords.srv
+[30.788s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/SetCoords_Request.msg
+[30.788s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/SetCoords_Response.msg
+[30.788s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/SetDrawing.srv
+[30.788s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/SetDrawing_Request.msg
+[30.789s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/SetDrawing_Response.msg
+[30.789s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/GetGuiSettings.srv
+[30.789s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/GetGuiSettings_Request.msg
+[30.789s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/srv/GetGuiSettings_Response.msg
+[30.789s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/ament_index/resource_index/package_run_dependencies/whycode_interfaces
+[30.789s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/ament_index/resource_index/parent_prefix_path/whycode_interfaces
+[30.789s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/environment/ament_prefix_path.sh
+[30.790s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/environment/ament_prefix_path.dsv
+[30.790s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/environment/path.sh
+[30.790s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/environment/path.dsv
+[30.790s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/local_setup.bash
+[30.790s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/local_setup.sh
+[30.790s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/local_setup.zsh
+[30.790s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/local_setup.dsv
+[30.791s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/package.dsv
+[30.791s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/ament_index/resource_index/packages/whycode_interfaces
+[30.791s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/export_whycode_interfaces__rosidl_generator_cExport.cmake
+[30.791s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/export_whycode_interfaces__rosidl_generator_cExport-noconfig.cmake
+[30.791s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/export_whycode_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[30.791s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/export_whycode_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[30.791s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/whycode_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[30.792s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/whycode_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[30.792s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/whycode_interfaces__rosidl_typesupport_cExport.cmake
+[30.792s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/whycode_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[30.792s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/export_whycode_interfaces__rosidl_generator_cppExport.cmake
+[30.792s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/export_whycode_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[30.792s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/export_whycode_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[30.793s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/whycode_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[30.793s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/whycode_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[30.793s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/whycode_interfaces__rosidl_typesupport_cppExport.cmake
+[30.793s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/whycode_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[30.793s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/export_whycode_interfaces__rosidl_generator_pyExport.cmake
+[30.793s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/export_whycode_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[30.793s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/rosidl_cmake-extras.cmake
+[30.794s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.794s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.794s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[30.794s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[30.794s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[30.794s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[30.794s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[30.795s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/whycode_interfacesConfig.cmake
+[30.795s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake/whycode_interfacesConfig-version.cmake
+[30.795s] -- Installing: /home/bhadha/pico_ws/install/whycode_interfaces/share/whycode_interfaces/package.xml
+[30.798s] Invoked command in '/home/bhadha/pico_ws/build/whycode_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhadha/pico_ws/build/whycode_interfaces

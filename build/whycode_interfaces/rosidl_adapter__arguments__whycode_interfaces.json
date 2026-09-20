@@ -1,0 +1,13 @@
+{
+  "package_name": "whycode_interfaces",
+  "non_idl_tuples": [
+    "/home/bhadha/pico_ws/src/whycode-ros2/whycode-ros2-interfaces:msg/Marker.msg",
+    "/home/bhadha/pico_ws/src/whycode-ros2/whycode-ros2-interfaces:msg/MarkerArray.msg",
+    "/home/bhadha/pico_ws/src/whycode-ros2/whycode-ros2-interfaces:srv/SelectMarker.srv",
+    "/home/bhadha/pico_ws/src/whycode-ros2/whycode-ros2-interfaces:srv/SetCalibMethod.srv",
+    "/home/bhadha/pico_ws/src/whycode-ros2/whycode-ros2-interfaces:srv/SetCalibPath.srv",
+    "/home/bhadha/pico_ws/src/whycode-ros2/whycode-ros2-interfaces:srv/SetCoords.srv",
+    "/home/bhadha/pico_ws/src/whycode-ros2/whycode-ros2-interfaces:srv/SetDrawing.srv",
+    "/home/bhadha/pico_ws/src/whycode-ros2/whycode-ros2-interfaces:srv/GetGuiSettings.srv"
+  ]
+}

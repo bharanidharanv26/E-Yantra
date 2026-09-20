@@ -1,0 +1,242 @@
+[0.029s] Invoking command in '/home/bhadha/pico_ws/build/controller_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhadha/pico_ws/src/controller_tuner/controller_msg -DCMAKE_INSTALL_PREFIX=/home/bhadha/pico_ws/install/controller_msg
+[0.169s] -- The C compiler identification is GNU 11.4.0
+[0.291s] -- The CXX compiler identification is GNU 11.4.0
+[0.307s] -- Detecting C compiler ABI info
+[0.432s] -- Detecting C compiler ABI info - done
+[0.447s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.447s] -- Detecting C compile features
+[0.448s] -- Detecting C compile features - done
+[0.454s] -- Detecting CXX compiler ABI info
+[0.587s] -- Detecting CXX compiler ABI info - done
+[0.605s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.606s] -- Detecting CXX compile features
+[0.607s] -- Detecting CXX compile features - done
+[0.613s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.932s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.110s] -- Found std_msgs: 4.9.2 (/opt/ros/humble/share/std_msgs/cmake)
+[1.180s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.192s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.213s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.271s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.332s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.882s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.825s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.143s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.186s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.188s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.237s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.237s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.237s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.237s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.278s] -- Found PythonExtra: .so  
+[3.617s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.662s] -- Added test 'lint_cmake' to check CMake code style
+[3.667s] -- Added test 'xmllint' to check XML markup files
+[3.678s] -- Configuring done
+[3.787s] -- Generating done
+[3.841s] -- Build files have been written to: /home/bhadha/pico_ws/build/controller_msg
+[3.869s] Invoked command in '/home/bhadha/pico_ws/build/controller_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhadha/pico_ws/src/controller_tuner/controller_msg -DCMAKE_INSTALL_PREFIX=/home/bhadha/pico_ws/install/controller_msg
+[3.876s] Invoking command in '/home/bhadha/pico_ws/build/controller_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhadha/pico_ws/build/controller_msg -- -j12 -l12
+[4.032s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.042s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.073s] [  9%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[4.143s] [  9%] Built target ament_cmake_python_copy_controller_msg
+[5.096s] [  9%] Built target controller_msg__cpp
+[5.159s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.173s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.185s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.367s] [ 18%] Built target controller_msg__rs
+[5.419s] running egg_info
+[5.420s] creating controller_msg.egg-info
+[5.421s] writing controller_msg.egg-info/PKG-INFO
+[5.422s] writing dependency_links to controller_msg.egg-info/dependency_links.txt
+[5.422s] writing top-level names to controller_msg.egg-info/top_level.txt
+[5.428s] writing manifest file 'controller_msg.egg-info/SOURCES.txt'
+[5.432s] reading manifest file 'controller_msg.egg-info/SOURCES.txt'
+[5.436s] writing manifest file 'controller_msg.egg-info/SOURCES.txt'
+[5.613s] [ 18%] Built target ament_cmake_python_build_controller_msg_egg
+[6.467s] [ 21%] [32mBuilding C object CMakeFiles/controller_msg__rosidl_generator_c.dir/rosidl_generator_c/controller_msg/msg/detail/pid_tune__functions.c.o[0m
+[6.896s] [ 25%] [32m[1mLinking C shared library libcontroller_msg__rosidl_generator_c.so[0m
+[7.099s] [ 25%] Built target controller_msg__rosidl_generator_c
+[7.155s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.204s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.210s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.368s] [ 37%] [32mBuilding CXX object CMakeFiles/controller_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_msg/msg/detail/pid_tune__type_support.cpp.o[0m
+[7.371s] [ 40%] [32mBuilding CXX object CMakeFiles/controller_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_msg/msg/pid_tune__type_support.cpp.o[0m
+[8.500s] [ 43%] [32mBuilding CXX object CMakeFiles/controller_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_msg/msg/detail/dds_fastrtps/pid_tune__type_support.cpp.o[0m
+[9.629s] [ 46%] [32mBuilding CXX object CMakeFiles/controller_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_msg/msg/detail/pid_tune__type_support_c.cpp.o[0m
+[10.071s] [ 50%] [32mBuilding CXX object CMakeFiles/controller_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_msg/msg/pid_tune__type_support.cpp.o[0m
+[10.172s] [ 53%] [32mBuilding C object CMakeFiles/controller_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_msg/msg/detail/pid_tune__type_support.c.o[0m
+[10.313s] [ 56%] [32m[1mLinking CXX shared library libcontroller_msg__rosidl_typesupport_c.so[0m
+[10.580s] [ 59%] [32m[1mLinking C shared library libcontroller_msg__rosidl_typesupport_introspection_c.so[0m
+[10.709s] [ 59%] Built target controller_msg__rosidl_typesupport_c
+[10.781s] [ 59%] Built target controller_msg__rosidl_typesupport_introspection_c
+[11.261s] [ 62%] [32m[1mLinking CXX shared library libcontroller_msg__rosidl_typesupport_cpp.so[0m
+[11.448s] [ 62%] Built target controller_msg__rosidl_typesupport_cpp
+[12.321s] [ 65%] [32m[1mLinking CXX shared library libcontroller_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.797s] [ 68%] [32m[1mLinking CXX shared library libcontroller_msg__rosidl_typesupport_introspection_cpp.so[0m
+[12.876s] [ 68%] Built target controller_msg__rosidl_typesupport_fastrtps_cpp
+[13.098s] [ 68%] Built target controller_msg__rosidl_typesupport_introspection_cpp
+[13.361s] [ 71%] [32m[1mLinking CXX shared library libcontroller_msg__rosidl_typesupport_fastrtps_c.so[0m
+[13.711s] [ 71%] Built target controller_msg__rosidl_typesupport_fastrtps_c
+[13.772s] [ 71%] Built target controller_msg
+[13.833s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.772s] [ 75%] Built target controller_msg__py
+[14.812s] [ 78%] [32mBuilding C object CMakeFiles/controller_msg__rosidl_generator_py.dir/rosidl_generator_py/controller_msg/msg/_pid_tune_s.c.o[0m
+[15.034s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/controller_msg/libcontroller_msg__rosidl_generator_py.so[0m
+[15.131s] [ 81%] Built target controller_msg__rosidl_generator_py
+[15.189s] [ 84%] [32mBuilding C object CMakeFiles/controller_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/controller_msg/_controller_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.190s] [ 87%] [32mBuilding C object CMakeFiles/controller_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/controller_msg/_controller_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[15.195s] [ 90%] [32mBuilding C object CMakeFiles/controller_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/controller_msg/_controller_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.546s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/controller_msg/controller_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.582s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/controller_msg/controller_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.600s] [100%] [32m[1mLinking C shared library rosidl_generator_py/controller_msg/controller_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.684s] [100%] Built target controller_msg__rosidl_typesupport_introspection_c__pyext
+[15.720s] [100%] Built target controller_msg__rosidl_typesupport_fastrtps_c__pyext
+[15.767s] [100%] Built target controller_msg__rosidl_typesupport_c__pyext
+[15.872s] Invoked command in '/home/bhadha/pico_ws/build/controller_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhadha/pico_ws/build/controller_msg -- -j12 -l12
+[15.887s] Invoking command in '/home/bhadha/pico_ws/build/controller_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhadha/pico_ws/build/controller_msg
+[15.903s] -- Install configuration: ""
+[15.903s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/ament_index/resource_index/rosidl_interfaces/controller_msg
+[15.904s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg
+[15.905s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg
+[15.906s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail
+[15.907s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail/pid_tune__type_support.h
+[15.908s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail/pid_tune__struct.h
+[15.908s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail/pid_tune__functions.c
+[15.909s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail/pid_tune__functions.h
+[15.910s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/rosidl_generator_c__visibility_control.h
+[15.911s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/pid_tune.h
+[15.912s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/environment/library_path.sh
+[15.913s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/environment/library_path.dsv
+[15.917s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/lib/libcontroller_msg__rosidl_generator_c.so
+[15.917s] -- Set runtime path of "/home/bhadha/pico_ws/install/controller_msg/lib/libcontroller_msg__rosidl_generator_c.so" to ""
+[15.917s] -- Up-to-date: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg
+[15.918s] -- Up-to-date: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg
+[15.918s] -- Up-to-date: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail
+[15.918s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail/pid_tune__rosidl_typesupport_fastrtps_c.h
+[15.918s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.919s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/lib/libcontroller_msg__rosidl_typesupport_fastrtps_c.so
+[15.920s] -- Set runtime path of "/home/bhadha/pico_ws/install/controller_msg/lib/libcontroller_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[15.920s] -- Up-to-date: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg
+[15.920s] -- Up-to-date: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg
+[15.921s] -- Up-to-date: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail
+[15.921s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail/pid_tune__type_support.hpp
+[15.921s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail/pid_tune__struct.hpp
+[15.921s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail/pid_tune__builder.hpp
+[15.922s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail/pid_tune__traits.hpp
+[15.923s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[15.924s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/pid_tune.hpp
+[15.924s] -- Up-to-date: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg
+[15.925s] -- Up-to-date: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg
+[15.927s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.927s] -- Up-to-date: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail
+[15.927s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail/dds_fastrtps
+[15.927s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail/pid_tune__rosidl_typesupport_fastrtps_cpp.hpp
+[15.928s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/lib/libcontroller_msg__rosidl_typesupport_fastrtps_cpp.so
+[15.929s] -- Set runtime path of "/home/bhadha/pico_ws/install/controller_msg/lib/libcontroller_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.929s] -- Up-to-date: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg
+[15.929s] -- Up-to-date: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg
+[15.931s] -- Up-to-date: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail
+[15.932s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail/pid_tune__rosidl_typesupport_introspection_c.h
+[15.933s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail/pid_tune__type_support.c
+[15.934s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.934s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/lib/libcontroller_msg__rosidl_typesupport_introspection_c.so
+[15.935s] -- Set runtime path of "/home/bhadha/pico_ws/install/controller_msg/lib/libcontroller_msg__rosidl_typesupport_introspection_c.so" to ""
+[15.936s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/lib/libcontroller_msg__rosidl_typesupport_c.so
+[15.937s] -- Set runtime path of "/home/bhadha/pico_ws/install/controller_msg/lib/libcontroller_msg__rosidl_typesupport_c.so" to ""
+[15.938s] -- Up-to-date: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg
+[15.938s] -- Up-to-date: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg
+[15.938s] -- Up-to-date: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail
+[15.938s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail/pid_tune__rosidl_typesupport_introspection_cpp.hpp
+[15.939s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/include/controller_msg/controller_msg/msg/detail/pid_tune__type_support.cpp
+[15.939s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/lib/libcontroller_msg__rosidl_typesupport_introspection_cpp.so
+[15.939s] -- Set runtime path of "/home/bhadha/pico_ws/install/controller_msg/lib/libcontroller_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[15.939s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/lib/libcontroller_msg__rosidl_typesupport_cpp.so
+[15.939s] -- Set runtime path of "/home/bhadha/pico_ws/install/controller_msg/lib/libcontroller_msg__rosidl_typesupport_cpp.so" to ""
+[15.940s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/environment/pythonpath.sh
+[15.940s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/environment/pythonpath.dsv
+[15.940s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg-0.0.0-py3.10.egg-info
+[15.940s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[15.940s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[15.944s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg-0.0.0-py3.10.egg-info/top_level.txt
+[15.944s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[15.945s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg
+[15.945s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/msg
+[15.945s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/msg/_pid_tune.py
+[15.945s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/msg/_pid_tune_s.c
+[15.945s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/msg/__init__.py
+[15.946s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/__init__.py
+[15.946s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/_controller_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.946s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/_controller_msg_s.ep.rosidl_typesupport_introspection_c.c
+[15.946s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/_controller_msg_s.ep.rosidl_typesupport_c.c
+[15.946s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/controller_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.947s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/controller_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.950s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/libcontroller_msg__rosidl_generator_py.so
+[15.950s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/controller_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.103s] Listing '/home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg'...
+[16.103s] Compiling '/home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/__init__.py'...
+[16.104s] Listing '/home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/msg'...
+[16.104s] Compiling '/home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/msg/__init__.py'...
+[16.105s] Compiling '/home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/msg/_pid_tune.py'...
+[16.123s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/controller_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.124s] -- Set runtime path of "/home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/controller_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.124s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/controller_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.124s] -- Set runtime path of "/home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/controller_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.124s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/controller_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.124s] -- Set runtime path of "/home/bhadha/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages/controller_msg/controller_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.124s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/lib/libcontroller_msg__rosidl_generator_py.so
+[16.126s] -- Set runtime path of "/home/bhadha/pico_ws/install/controller_msg/lib/libcontroller_msg__rosidl_generator_py.so" to ""
+[16.128s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/ament_index/resource_index/rust_packages/controller_msg
+[16.129s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/rust
+[16.130s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/rust/build.rs
+[16.130s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/rust/src
+[16.131s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/rust/src/msg
+[16.131s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/rust/src/msg/rmw.rs
+[16.131s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/rust/src/lib.rs
+[16.132s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/rust/src/msg.rs
+[16.132s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/rust/Cargo.toml
+[16.132s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/msg/PIDTune.idl
+[16.132s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/msg/PIDTune.msg
+[16.132s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/ament_index/resource_index/package_run_dependencies/controller_msg
+[16.133s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/ament_index/resource_index/parent_prefix_path/controller_msg
+[16.133s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/environment/ament_prefix_path.sh
+[16.134s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/environment/ament_prefix_path.dsv
+[16.134s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/environment/path.sh
+[16.134s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/environment/path.dsv
+[16.134s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/local_setup.bash
+[16.135s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/local_setup.sh
+[16.135s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/local_setup.zsh
+[16.135s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/local_setup.dsv
+[16.136s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/package.dsv
+[16.136s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/ament_index/resource_index/packages/controller_msg
+[16.136s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/export_controller_msg__rosidl_generator_cExport.cmake
+[16.136s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/export_controller_msg__rosidl_generator_cExport-noconfig.cmake
+[16.137s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/export_controller_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[16.137s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/export_controller_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.137s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/export_controller_msg__rosidl_generator_cppExport.cmake
+[16.138s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/export_controller_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.139s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/export_controller_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.140s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/controller_msg__rosidl_typesupport_introspection_cExport.cmake
+[16.140s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/controller_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.140s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/controller_msg__rosidl_typesupport_cExport.cmake
+[16.140s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/controller_msg__rosidl_typesupport_cExport-noconfig.cmake
+[16.140s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/controller_msg__rosidl_typesupport_introspection_cppExport.cmake
+[16.141s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/controller_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.142s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/controller_msg__rosidl_typesupport_cppExport.cmake
+[16.142s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/controller_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[16.142s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/export_controller_msg__rosidl_generator_pyExport.cmake
+[16.143s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/export_controller_msg__rosidl_generator_pyExport-noconfig.cmake
+[16.143s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/rosidl_cmake-extras.cmake
+[16.144s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.144s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.144s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[16.145s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/ament_cmake_export_targets-extras.cmake
+[16.145s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.146s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.146s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[16.146s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/controller_msgConfig.cmake
+[16.147s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/cmake/controller_msgConfig-version.cmake
+[16.148s] -- Installing: /home/bhadha/pico_ws/install/controller_msg/share/controller_msg/package.xml
+[16.198s] Invoked command in '/home/bhadha/pico_ws/build/controller_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhadha/pico_ws/build/controller_msg
