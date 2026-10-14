@@ -1,47 +1,87 @@
 #!/usr/bin/env python3
 
+"""Task 2B waypoint service."""
+
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import Pose
+
+from geometry_msgs.msg import Pose, PoseArray
 from waypoint_navigation.srv import GetWaypoints
 
-class WayPoints(Node):
+
+# Required waypoint order: WP1 -> WP2 -> WP3 -> WP4.
+WAYPOINTS = [
+    ("wp1", -2.41, -2.41, 13.00),
+    ("wp2",  2.41,  1.20, 13.00),
+    ("wp3",  1.20, -2.41, 13.00),
+    ("wp4", -1.20,  1.20, 13.00),
+]
+
+
+class WaypointService(Node):
 
     def __init__(self):
-        super().__init__('waypoints_service')
-        #create a service for the service type 'GetWaypoints' with the name 'waypoints' and self.waypoint_callback as the callback.
-        #Refer to Writing a simple service and client (Python) in ROS 2 tutorials
-        self.waypoints = []
+        super().__init__("waypoint_service")
 
-    
-    def waypoint_callback(self, request, response):
+        self.srv = self.create_service(
+            GetWaypoints,
+            "waypoint_service",
+            self.handle_request,
+        )
 
-        if request.get_waypoints == True :
-            response.waypoints.poses = [Pose() for _ in range(len(self.waypoints))]
-            for i in range(len(self.waypoints)):
-                response.waypoints.poses[i].position.x = self.waypoints[i][0]
-                response.waypoints.poses[i].position.y = self.waypoints[i][1]
-                response.waypoints.poses[i].position.z = self.waypoints[i][2]
-            self.get_logger().info("Incoming request for Waypoints")
+        self.get_logger().info(
+            "waypoint_service ready (%d waypoints)"
+            % len(WAYPOINTS)
+        )
+
+    def handle_request(self, request, response):
+        if not request.get_waypoints:
+            response.waypoints = PoseArray()
+            response.marker_ids = []
             return response
 
-        else:
-            self.get_logger().info("Request rejected")
+        poses = PoseArray()
+        poses.header.stamp = self.get_clock().now().to_msg()
+        poses.header.frame_id = "whycode"
 
-def main():
-    rclpy.init()
-    waypoints = WayPoints()
+        labels = []
+
+        for label, x, y, z in WAYPOINTS:
+            pose = Pose()
+
+            pose.position.x = float(x)
+            pose.position.y = float(y)
+            pose.position.z = float(z)
+            pose.orientation.w = 1.0
+
+            poses.poses.append(pose)
+            labels.append(label)
+
+        response.waypoints = poses
+        response.marker_ids = labels
+
+        self.get_logger().info(
+            "sent %d waypoints: %s"
+            % (len(labels), ", ".join(labels))
+        )
+
+        return response
+
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = WaypointService()
 
     try:
-        rclpy.spin(waypoints)
+        rclpy.spin(node)
     except KeyboardInterrupt:
-        waypoints.get_logger().info('KeyboardInterrupt, shutting down.\n')
+        pass
     finally:
-        waypoints.destroy_node()
-        rclpy.shutdown()
+        node.destroy_node()
 
-if __name__ == '__main__':
+        if rclpy.ok():
+            rclpy.shutdown()
+
+
+if __name__ == "__main__":
     main()
-        
-
-        

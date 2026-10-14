@@ -1,118 +1,189 @@
 #!/usr/bin/env python3
 
+"""Task 2B waypoint navigation action client."""
+
 import time
+
 import rclpy
-from rclpy.action import ActionClient
 from rclpy.node import Node
+from rclpy.action import ActionClient
 
-#import the action and service
+from action_msgs.msg import GoalStatus
+from waypoint_navigation.action import NavToWaypoint
+from waypoint_navigation.srv import GetWaypoints
 
 
-
-class WayPointClient(Node):
+class PicoClient(Node):
 
     def __init__(self):
-        super().__init__('waypoint_client')
-        self.goals = []
-        self.goal_index = 0
-        #create an action client for the action 'NavToWaypoint'. Refer to Writing an action server and client (Python) in ROS 2 tutorials
-        #action name should 'waypoint_navigation'.
+        super().__init__("pico_client")
 
-        
-        #create a client for the service 'GetWaypoints'. Refer to Writing a simple service and client (Python) in ROS 2 tutorials
-        #service name should be 'waypoints'
-        
-        while not self.cli.wait_for_service(timeout_sec=1.0):
-            self.get_logger().info('service not available, waiting again...')
+        self.waypoint_client = self.create_client(
+            GetWaypoints, "waypoint_service"
+        )
 
-        #create a request object for GetWaypoints service.
-        
+        self.nav_client = ActionClient(
+            self, NavToWaypoint, "waypoint_navigation"
+        )
 
-    
-    ###action client functions
+        self.last_feedback_log = 0.0
+        self.t_start = None
 
-    def send_goal(self, waypoint):
+    def request_waypoints(self):
+        while rclpy.ok() and not self.waypoint_client.wait_for_service(
+            timeout_sec=2.0
+        ):
+            self.get_logger().info(
+                "waiting for the waypoint service ..."
+            )
 
-        #create a NavToWaypoint goal object.
+        if not rclpy.ok():
+            return None, None
 
-        goal_msg.waypoint.position.x = waypoint[0]
-        goal_msg.waypoint.position.y = waypoint[1]
-        goal_msg.waypoint.position.z = waypoint[2]
+        request = GetWaypoints.Request()
+        request.get_waypoints = True
 
-        #create a method waits for the action server to be available.
-        
+        future = self.waypoint_client.call_async(request)
+        rclpy.spin_until_future_complete(self, future)
 
-        self.send_goal_future = self.action_client.send_goal_async(goal_msg, feedback_callback=self.feedback_callback)    
-        self.send_goal_future.add_done_callback(self.goal_response_callback)
+        response = future.result()
 
-    def goal_response_callback(self, future):
+        if response is None or not response.waypoints.poses:
+            return None, None
 
-        #complete the goal_response_callback. Refer to Writing an action server and client (Python) in ROS 2 tutorials
+        labels = list(response.marker_ids)
 
-        
+        while len(labels) < len(response.waypoints.poses):
+            labels.append("wp%d" % (len(labels) + 1))
 
-    def get_result_callback(self, future):
-
-        #complete the missing line
-        result = 
-        self.get_logger().info('Result: {0}'.format(result.hov_time))
-
-        self.goal_index += 1
-
-        if self.goal_index < len(self.goals):
-            self.send_goal(self.goals[self.goal_index])
-        else:
-            self.get_logger().info('All waypoints have been reached successfully')      
+        return list(response.waypoints.poses), labels
 
     def feedback_callback(self, feedback_msg):
+        now = time.monotonic()
 
-        #complete the missing line
-        feedback = 
-        x = feedback.current_waypoint.pose.position.x
-        y = feedback.current_waypoint.pose.position.y
-        z = feedback.current_waypoint.pose.position.z
-        t = feedback.current_waypoint.header.stamp.sec
-        self.get_logger().info(f'Received feedback! The current whycon position is: {x}, {y}, {z}')
-        self.get_logger().info(f'Max time inside sphere: {t}')
+        if now - self.last_feedback_log >= 1.0:
+            self.last_feedback_log = now
 
+            position = (
+                feedback_msg.feedback.current_waypoint.pose.position
+            )
 
-    #service client functions
+            self.get_logger().info(
+                "feedback: x %.2f y %.2f z %.2f"
+                % (position.x, position.y, position.z)
+            )
 
-    def send_request(self):
-        #  complete send_request method, which will send the request and return a future
-    
-    def receive_goals(self):
-        future = self.send_request()
-        #write a statement to execute the service until the future is complete
-        
-        response = future.result()
-        self.get_logger().info('Waypoints received by the action client')
+    def go_to(self, pose, label):
+        while rclpy.ok() and not self.nav_client.wait_for_server(
+            timeout_sec=2.0
+        ):
+            self.get_logger().info(
+                "waiting for the action server ..."
+            )
 
-        for pose in response.waypoints.poses:
-            waypoints = [pose.position.x, pose.position.y, pose.position.z]
-            self.goals.append(waypoints)
-            self.get_logger().info(f'Waypoints: {waypoints}')
+        if not rclpy.ok():
+            return False
 
-        self.send_goal(self.goals[0])
-    
+        if self.t_start is None:
+            self.t_start = time.monotonic()
+
+        goal = NavToWaypoint.Goal()
+        goal.waypoint = pose
+        goal.hover = True
+
+        self.get_logger().info(
+            "sending %s: x %.2f y %.2f z %.2f"
+            % (
+                label,
+                pose.position.x,
+                pose.position.y,
+                pose.position.z,
+            )
+        )
+
+        send_future = self.nav_client.send_goal_async(
+            goal,
+            feedback_callback=self.feedback_callback,
+        )
+
+        rclpy.spin_until_future_complete(self, send_future)
+        goal_handle = send_future.result()
+
+        if goal_handle is None or not goal_handle.accepted:
+            self.get_logger().error(
+                "%s was rejected by the action server" % label
+            )
+            return False
+
+        result_future = goal_handle.get_result_async()
+        rclpy.spin_until_future_complete(self, result_future)
+
+        outcome = result_future.result()
+
+        if (
+            outcome is None
+            or outcome.status != GoalStatus.STATUS_SUCCEEDED
+        ):
+            status = None if outcome is None else outcome.status
+
+            self.get_logger().error(
+                "%s failed (status %s)" % (label, status)
+            )
+            return False
+
+        self.get_logger().info(
+            "%s REACHED and held. settle time %d s "
+            "(mission time %.1f s)"
+            % (
+                label,
+                outcome.result.hov_time,
+                time.monotonic() - self.t_start,
+            )
+        )
+
+        return True
+
+    def run(self):
+        poses, labels = self.request_waypoints()
+
+        if poses is None:
+            self.get_logger().error(
+                "the waypoint service returned no waypoints"
+            )
+            return
+
+        self.get_logger().info(
+            "got %d waypoints: %s"
+            % (len(poses), ", ".join(labels))
+        )
+
+        for pose, label in zip(poses, labels):
+            if not self.go_to(pose, label):
+                self.get_logger().error(
+                    "navigation stopped at %s" % label
+                )
+                return
+
+        self.get_logger().info(
+            "NAVIGATION COMPLETE: all %d waypoints reached in %.1f s"
+            % (len(poses), time.monotonic() - self.t_start)
+        )
+
 
 def main(args=None):
     rclpy.init(args=args)
-
-    waypoint_client = WayPointClient()
-    waypoint_client.receive_goals()
+    node = PicoClient()
 
     try:
-        rclpy.spin(waypoint_client)
+        node.run()
     except KeyboardInterrupt:
-        waypoint_client.get_logger().info('KeyboardInterrupt, shutting down.\n')
+        pass
     finally:
-        waypoint_client.destroy_node()
-        rclpy.shutdown()
-    
-    rclpy.shutdown()
+        node.destroy_node()
+
+        if rclpy.ok():
+            rclpy.shutdown()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
-        
